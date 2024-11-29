@@ -1,10 +1,13 @@
 import './App.css'
+import Header from './components/Header'
+import UploadLayout from './features/upload/UploadLayout'
 
 function App() {
 
   return (
     <>
-      <h1>Royal Docs</h1>
+      <Header />
+      <UploadLayout />
     </>
   )
 }
